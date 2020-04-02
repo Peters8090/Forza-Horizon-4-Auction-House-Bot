@@ -29,7 +29,7 @@ while True:
     controller.press(Key.enter)
     controller.release(Key.enter)
 
-    time.sleep(0.75)
+    time.sleep(0.5)
 
     controller.press(Key.enter)
     controller.release(Key.enter)
