@@ -74,12 +74,12 @@ while True:
             controller.press(Key.enter)
             controller.release(Key.enter)
 
-            time.sleep(0.5)
+            time.sleep(1)
 
             controller.press(Key.esc)
             controller.release(Key.esc)
 
-            time.sleep(0.5)
+            time.sleep(1)
 
             controller.press(Key.esc)
             controller.release(Key.esc)
