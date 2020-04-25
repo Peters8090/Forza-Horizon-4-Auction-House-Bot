@@ -33,8 +33,8 @@ res1920x1080 = {
     'car sold': [(404, 406), '150, 150, 150'],  # car sold
 }
 
-# pixels = res1920x1080
-pixels = res1680x1050
+pixels = res1920x1080
+# pixels = res1680x1050
 
 while True:
     while (True):
