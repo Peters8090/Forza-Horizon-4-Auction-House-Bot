@@ -12,6 +12,6 @@ Instructions:
 5. Create a virtualenv - virtualenv venv
 6. Activate it - venv\Scripts\activate.bat
 7. Install all dependencies - pip install -r requirements.txt
-8. Choose your resolution by changing the pixels variable
-8. Run the script - main.py
-9. Quickly switch to the game
+8. Choose your resolution by changing the pixels variable, unless you don't need to do so (default is FullHD)
+9. Run the script - main.py
+10. Quickly switch to the game
