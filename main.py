@@ -82,20 +82,6 @@ while True:
     time.sleep(2)
 
     while (True):
-        # pixelColor = pyautogui.screenshot().getpixel(pixels.get('car not found')[0])  # car not found
-
-        # if (f'{pixelColor[0]}, {pixelColor[1]}, {pixelColor[2]}' == pixels.get('car not found')[1]):
-        #     print("car not found")
-        #     print()
-        #     controller.press(Key.esc)
-        #     controller.release(Key.esc)
-        #     break
-
-        # time.sleep(1.5)
-        # pixelColor = pyautogui.screenshot().getpixel(pixels.get('car found')[0])  # car found
-        
-        
-        
         result = checkCar(pyautogui.screenshot(), pixels)
         while(result ==  None):
             result = checkCar(pyautogui.screenshot(), pixels)
